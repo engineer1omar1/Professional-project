@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Tim</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/style.css">
+<!-- ======== Google Font ========= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="page d-flex">
+    <div class="sidebar bg-white rad-12 m-8 mr-0 w-full t-0 b-0 p-fixed transition">
+        <a class="sidebar-header" href="" target="_blank">
+            <span class="fs-25 fw-bold d-block w-fit">omar</span>
+        </a>
+        <hr class="diveder mt-0 mb-8 bg-imagee border-none bgc-transparent">
+        <ul class="sidebar-menu">
+            <li class="menu-item d-flex align-center">
+                <a class="active w-full rad-8" href="dashboard.html"><i class="fa-regular fa-house c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Dashboard</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="tables.html"><i class="fa-solid fa-table c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Tables</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="billing.html"><i class="fa-solid fa-table-columns c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Billing</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="virtual-reality.html"><i class="fa-solid fa-cubes c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Virtual Reality</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="rtl.html"><i class="fa-solid fa-paragraph c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">RTL</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="notifications.html"><i class="fa-regular fa-bell c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Notifications</span></a>
+            </li>
+            <span class="account-page c-viv fs-15 opacity-5"">Account Page</span>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="profile.html"><i class="fa-regular fa-user c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Profile</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="sign-in.html"><i class="fa-solid fa-arrow-right-to-bracket c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Sign In</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="sign-up.html"><i class="fa-solid fa-arrow-right-from-bracket c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Sign Up</span></a>
+            </li>
+            
+        </ul>
+        <div class="sidebar-footer">
+                <a href="#"><span class="first d-block fs-14 w-fit rad-6">Documentation</span></a>
+                <a href="#"><span class="second fs-14 w-fit rad-6 m-auto d-block c-white fw-bold">Upgrade to Pro</span></a>
+        </div>
+    </div>
+    <div class="content f-1 p-10 pr-20">
+       <div class="header transition between-flex ml-10 pl-10">
+        <div class="header-left d-flex align-center fs-14">
+            <span class="span-frist mr-10 c-secondary">Pages </span><span class="c-black-c">/</span><span class="span-second c-black-c ml-10"> Dashboard</span>
+        </div>
+        <div class="header-right between-flex">
+            <div class="hover-option">
+            <input type="search" class="input-search bg-blue rad-6 p-10 fs-14">
+            </div>
+            <div>
+            <a href="#" class="online-builder ml-15 rad-8 fs-12 transition">Online Builder</a>
+            </div>
+            <div class="star-number between-flex ml-15">
+                <a href="#" class="star d-flex align-center transition">
+                    <i class="fa-regular fa-star fs-14 mr-5"></i>
+                    <span class="fs-12">Star</span>
+                </a>
+                <a href="#" class="number fs-12 transition">11,515</a>
+            </div>
+            <input type="checkbox" id="overflow" hidden>
+            <label for="overflow" class="sidebar-icon-checked d-flex f-wrap mr-15 ml-15">
+                <span class="one transition"></span>
+                <span class="tow"></span>
+                <span class="three transition"></span>
+            </label>
+            <input type="checkbox" id="page-setting-icon" hidden>
+            <label for="page-setting-icon" class="page-setting-icon transition">
+                <i class="fa-solid fa-gear fs-14 c-threerd cursor-pointer "></i>
+            </label>
+            <input type="checkbox" id="notification" hidden>
+            <label for="notification" class="notification-dashboard p-relative">
+                <i class="fa-regular fa-bell fs-16 ml-15 mr-15 c-threerd cursor-pointer"></i>
+                <div class="notifitcation-hover p-absolute bg-white rad-8 shadow bc-cd p-10">
+                    <div class="d-flex align-center p-10 mb-5">
+                        <img src="Image/friend-01.jpg" class="img-notification mr-15 rad-half" alt="">
+                        <div>
+                            <span class="fs-14 c-black"><span class="fw-600">New Message</span> from Hossam</span>
+                            <span class="fs-12 c-threerd d-block mt-5"> 13 minutes ago</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-center p-10 mb-5">
+                        <img src="Image/friend-02.jpg" class="img-notification mr-15 rad-half" alt="">
+                        <div>
+                            <span class="fs-14 c-black"><span class="fw-600">New Message</span> from Mohammed</span>
+                            <span class="fs-12 c-threerd d-block mt-5"> 1 day</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-center p-10 mb-5">
+                        <img src="Image/friend-04.jpg" class="img-notification mr-15 rad-half" alt="">
+                        <div>
+                            <span class="fs-14 c-black"><span class="fw-600">New Message</span> from Ahmed</span>
+                            <span class="fs-12 c-threerd d-block mt-5"> 2 day</span>
+                        </div>
+                    </div>
+                </div>
+            </label>
+            <a href="sign-in.html" class="delet">
+                <i class="fa-regular fa-circle-user c-threerd fs-16 mr-15"></i>
+            </a>
+        </div>
+       </div> 
+       <div class="content-title pl-10 ml-10">
+        <h2 class="mt-20 fs-24 c-black">Dashboard</h2>
+        <p class="mt-5 fs-16 c-threerd">Check the sales, value and bounce rate by country.</p>
+       </div>
+       <div class="content-boxs d-grid mt-30 g-20">
+        <div class="today-money today-money-hover transition bg-white bc-cd bg-white rad-8 p-15">
+            <div class="content-box">
+                <div class="between-flex">
+                <div>
+                    <span class="d-block fs-14 c-threerd mb-5 fw-600">Today's Money</span>
+                    <span class="c-black fs-21 fw-bold">$53k</span>
+                </div>
+                <div class="content-box-icon centre-flex">
+                <i class="fa-regular fa-credit-card fs-15 c-white "></i>
+                </div>
+            </div>
+                <hr class="diveder mt-15 mb-10 bg-imagee border-none bgc-transparent">
+                <span class="fs-13 c-threerd fw-600"><span class="c-red-persson fw-bold">+55% </span>Than Last Week</span>
+            </div>
+        </div>
+        <div class="today-money today-money-hover transition bg-white bc-cd bg-white rad-8 p-15">
+            <div class="content-box">
+                <div class="between-flex">
+                <div>
+                    <span class="d-block fs-14 c-threerd mb-5 fw-600">Today's Users</span>
+                    <span class="c-black fs-21 fw-bold">2300</span>
+                </div>
+                <div class="content-box-icon centre-flex">
+                <i class="fa-regular fa-user fs-15 c-white "></i>
+                </div>
+            </div>
+                <hr class="diveder mt-15 mb-10 bg-imagee border-none bgc-transparent">
+                <span class="fs-13 c-threerd fw-600"><span class="c-red-persson fw-bold">+3% </span>Than Last month</span>
+            </div>
+        </div>
+        <div class="today-money today-money-hover transition bg-white bc-cd bg-white rad-8 p-15">
+            <div class="content-box">
+                <div class="between-flex">
+                <div>
+                    <span class="d-block fs-14 c-threerd mb-5 fw-600">Ads Views</span>
+                    <span class="c-black fs-21 fw-bold">3,463</span>
+                </div>
+                <div class="content-box-icon centre-flex">
+                <i class="fa-solid fa-chart-simple fs-15 c-white"></i>
+                </div>
+            </div>
+                <hr class="diveder mt-15 mb-10 bg-imagee border-none bgc-transparent">
+                <span class="fs-13 c-threerd fw-600"><span class="c-red-persson fw-bold">-2% </span>Than Yesterday</span>
+            </div>
+        </div>
+        <div class="today-money today-money-hover transition bg-white bc-cd bg-white rad-8 p-15">
+            <div class="content-box">
+                <div class="between-flex">
+                <div>
+                    <span class="d-block fs-14 c-threerd mb-5 fw-600">Sales</span>
+                    <span class="c-black fs-21 fw-bold">$103,423</span>
+                </div>
+                <div class="content-box-icon centre-flex">
+                <i class="fa-regular fa-credit-card fs-15 c-white"></i>
+                </div>
+            </div>
+                <hr class="diveder mt-15 mb-10 bg-imagee border-none bgc-transparent">
+                <span class="fs-13 c-threerd fw-600"><span class="c-red-persson fw-bold">+5% </span>Than Year</span>
+            </div>
+        </div>
+       </div>
+       <div class="project-table d-grid mt-20">
+        <div class="project bc-cd bg-white rad-8 pt-15">
+            <span class="c-black fs-16 c-black fw-600 pl-20">Projects</span>
+            <p class="c-secondary fs-14 mt-10 pl-25">30 done this month</p>
+            <table class="mt-15">
+                <thead>
+                    <tr class="special">
+                        <th class="c-secondary fs-11 fw-600 pl-25 pt-15 pb-15 w-full txt-f">COMPANIES</th>
+                        <th class="c-secondary fs-11 fw-600 pl-30 pr-30 pt-15 pb-15 txt-c">MEMBERS</th>
+                        <th class="c-secondary fs-11 fw-600 pl-30 pr-30 pt-15 pb-15 txt-c">BUDGET</th>
+                        <th class="c-secondary fs-11 fw-600 pl-30 pr-30 pt-15 pb-15 txt-f">COMPLETION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="p-15 d-flex align-center"><img class="img-icon mr-20" src="Image/friend-01.jpg" alt=""><p class="c-black fs-14 fw-600">Material XD Version</p></td>
+                        <td>
+                            <div class="txt-c p-15">
+                                <img class="img-team mr--15" src="Image/team-01.png" alt="">
+                                <img class="img-team z-index mr--15" src="Image/team-02.png" alt="">
+                                <img class="img-team mr--15" src="Image/team-03.png" alt="">
+                                <img class="img-team" src="Image/team-05.png" alt="">
+                            </div>
+                        </td>
+                        <td class="p-15 txt-c"><span class="fs-13 fw-500 c-threerd">$14,000</span></td>
+                        <td class="p-15"><span class="fs-12 fw-600 c-secondary">60%</span><div class="progress p-relative mt-5"><span class="progress-bar" style="width: 60%"></span></div></td>
+                    </tr>
+                    <tr>
+                        <td class="p-15 d-flex align-center"><img class="img-icon mr-20" src="Image/friend-02.jpg" alt=""><p class="c-black fs-14 fw-600">Add Progress Track</p></td>
+                        <td>
+                            <div class="img-main p-15 txt-f">
+                                <img class="img-team mr--15" src="Image/team-01.png" alt="">
+                                <img class="img-team mr--15" src="Image/team-03.png" alt="">
+                                <img class="img-team" src="Image/team-05.png" alt="">
+                            </div>
+                        </td>
+                        <td class="p-15 txt-c"><span class="fs-13 fw-500 c-threerd">$3,000</span></td>
+                        <td class="p-15"><span class="fs-12 fw-600 c-secondary">10%</span><div class="progress p-relative mt-5"><span class="progress-bar" style="width: 10%"></span></div></td>
+                    </tr>
+                    <tr>
+                        <td class="p-15 d-flex align-center"><img class="img-icon mr-20" src="Image/friend-04.jpg" alt=""><p class="c-black fs-14 fw-600">Fix Platform Errors</p></td>
+                        <td>
+                            <div class="img-main p-15">
+                                <img class="img-team mr--15" src="Image/team-01.png" alt="">
+                                <img class="img-team" src="Image/team-05.png" alt="">
+                            </div>
+                        </td>
+                        <td class="p-15 txt-c"><span class="fs-13 fw-500 c-threerd">Not set</span></td>
+                        <td class="p-15"><span class="fs-12 fw-600 c-secondary">100%</span><div class="progress p-relative mt-5"><span class="progress-bar red" style="width: 100%"></span></div></td>
+                    </tr>
+                    <tr>
+                        <td class="p-15 d-flex align-center"><img class="img-icon mr-20" src="Image/friend-05.jpg" alt=""><p class="c-black fs-14 fw-600">Material XD Version</p></td>
+                        <td>
+                            <div class="img-main p-15">
+                                <img class="img-team mr--15" src="Image/team-01.png" alt="">
+                                <img class="img-team mr--15" src="Image/team-02.png" alt="">
+                                <img class="img-team mr--15" src="Image/team-03.png" alt="">
+                                <img class="img-team" src="Image/team-05.png" alt="">
+                            </div>
+                        </td>
+                        <td class="p-15 txt-c"><span class="fs-13 fw-500 c-threerd">$20,500</span></td>
+                        <td class="p-15"><span class="fs-12 fw-600 c-secondary">100%</span><div class="progress p-relative mt-5"><span class="progress-bar red" style="width: 100%"></span></div></td>
+                    </tr>
+                    <tr>
+                        <td class="p-15 d-flex align-center"><img class="img-icon mr-20" src="Image/friend-02.jpg" alt=""><p class="c-black fs-14 fw-600">Add the New Pricing Page</p></td>
+                        <td>
+                            <div class="img-main p-15">
+                                <img class="img-team" src="Image/team-05.png" alt="">
+                            </div>
+                        </td>
+                        <td class="p-15 txt-c"><span class="fs-13 fw-500 c-threerd">$500</span></td>
+                        <td class="p-15"><span class="fs-12 fw-600 c-secondary">25%</span><div class="progress p-relative mt-5"><span class="progress-bar red" style="width: 25%"></span></div></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="orders-overview bc-cd bg-white rad-8 pt-15">
+            <span class="c-black fs-16 c-black fw-600 pl-20">Orders Overview</span>
+            <p class="c-secondary fs-14 mt-10 pl-25">24% this month</p>
+            <ul class="mt-20">
+                <li class="d-flex pl-30 mb-25">
+                    <i class="fa-regular fa-bell mr-20 mt-5 c-red p-relative line"></i>
+                    <div>
+                        <p class="c-black fs-14 fw-600">$2400, Design changes</p>
+                        <span class="c-threerd fs-12 fw-600 mt-5 d-block">22 DEC 7:20 PM</span>
+                    </div>
+                </li>
+                <li class="d-flex pl-30 mb-25">
+                    <i class="fa-solid fa-code  mr-20 mt-5 c-red p-relative line"></i>
+                    <div>
+                        <p class="c-black fs-14 fw-600">New order #1832412</p>
+                        <span class="c-threerd fs-12 fw-600 mt-5 d-block">21 DEC 11 PM</span>
+                    </div>
+                </li>
+                <li class="d-flex pl-30 mb-25">
+                    <i class="fa-solid fa-cart-shopping mr-20 mt-5 c-blue p-relative line"></i>
+                    <div>
+                        <p class="c-black fs-14 fw-600">Server payments for April</p>
+                        <span class="c-threerd fs-12 fw-600 mt-5 d-block">21 DEC 9:34 PM</span>
+                    </div>
+                </li>
+                <li class="d-flex pl-30 mb-25">
+                    <i class="fa-regular fa-credit-card mr-20 mt-5 c-orange p-relative line"></i>
+                    <div>
+                        <p class="c-black fs-14 fw-600">New card added for order #4395133</p>
+                        <span class="c-threerd fs-12 fw-600 mt-5 d-block">20 DEC 2:20 AM</span>
+                    </div>
+                </li>
+                <li class="d-flex pl-30 mb-25">
+                    <i class="fa-solid fa-key mr-20 mt-5 c-grey p-relative line"></i>
+                    <div>
+                        <p class="c-black fs-14 fw-600">Unlock packages for development</p>
+                        <span class="c-threerd fs-12 fw-600 mt-5 d-block">18 DEC 4:54 AM</span>
+                    </div>
+                </li>
+                <li class="d-flex pl-30 mb-25">
+                    <i class="fa-solid fa-money-bills mr-20 mt-5 c-black p-relative"></i>
+                    <div>
+                        <p class="c-black fs-14 fw-600">New order #9583120</p>
+                        <span class="c-threerd fs-12 fw-600 mt-5 d-block">17 DEC</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+       </div>
+       <div class="footer between-flex pt-40 pb-40">
+        <div class="copy c-threerd fs-14">&copy; 2026, made with by <span class="c-black fs-15 fw-bold">Omar</span> for a better web.</div>
+        <div class="links">
+            <ul class="d-flex align-center g-40">
+                <li><a href="#" class="c-threerd fs-14 fw-500">Omar</a></li>
+                <li><a href="#" class="c-threerd fs-14 fw-500">About As</a></li>
+                <li><a href="#" class="c-threerd fs-14 fw-500">Blog</a></li>
+                <li><a href="#" class="c-threerd fs-14 fw-500">Contact</a></li>
+            </ul>
+        </div>
+       </div>
+    </div>
+    <div class="page-setting pl-10 pr-10 transition" id="page-setting-icon">
+        <div class="title between-flex p-15">
+            <div>
+                <h5 class="fs-20 pt-15 fw-600 c-black">Material UI Configurator</h5>
+                <p class="c-secondary fs-16 pb-16 mt-5">See our dashboard options.</p>
+            </div>
+            <input type="checkbox" id="page-setting-icon" hidden>
+            <label for="page-setting-icon">
+            <i class="fa-solid fa-xmark c-black mt-15 fs-13 cursor-pointer"></i>
+            </label>
+        </div>
+        <div class="setting-body p-15 mt-5">
+            <div class="sidebar-colors">
+            <h6 class="fs-16 fw-500 c-black">Sidebar Colors</h6>
+            <div class="d-flex align-center">
+                <input type="radio" name="sidebar-color" id="sidebar-1-color" hidden>
+                <label for="sidebar-1-color" class="one rad-half mt-10 transition cursor-pointer"></label>
+                <input type="radio" name="sidebar-color" id="sidebar-2-color" hidden>
+                <label for="sidebar-2-color" class="tow rad-half mt-10 ml-10 transition cursor-pointer"></label>
+                <input type="radio" name="sidebar-color" id="sidebar-3-color" hidden>
+                <label for="sidebar-3-color" class="three rad-half mt-10 ml-10 transition cursor-pointer"></label>
+                <input type="radio" name="sidebar-color" id="sidebar-4-color" hidden>
+                <label for="sidebar-4-color" class="four rad-half mt-10 ml-10 transition cursor-pointer"></label>
+                <input type="radio" name="sidebar-color" id="sidebar-5-color" hidden>
+                <label for="sidebar-5-color" class="five rad-half mt-10 ml-10 transition cursor-pointer"></label>
+                <input type="radio" name="sidebar-color" id="sidebar-6-color" hidden>
+                <label for="sidebar-6-color" class="six rad-half mt-10 ml-10 transition cursor-pointer"></label>
+            </div>
+            </div>
+            <div class="sidenav-type">
+                <h6 class="fs-16 fw-500 mt-30 c-black">Sidenav Type</h6>
+                <p class="c-secondary fs-15 mb-15 mt-5">Choose between different sidenav types.</p>
+            </div>
+            <div class="sidebar-color-change d-flex align-center">
+                <input type="radio" name="sidebar-color-change" id="dark" hidden>
+                <label for="dark" class="dark c-black mr-10 fs-15 bc-ccc btn-shape shadow cursor-pointer">Dark</label>
+                <input type="radio" name="sidebar-color-change" id="transparent" hidden>
+                <label for="transparent" class="transparent c-black mr-10 fs-15 bc-ccc btn-shape shadow cursor-pointer">Transparent</label>
+                <input type="radio" name="sidebar-color-change" id="white" hidden checked>
+                <label for="white" class="white c-black fs-15 bc-ccc btn-shape shadow cursor-pointer">White</label>
+            </div>
+            <div class="navbar-fixed between-flex mt-30 mb-20">
+                <h6 class="fs-16 fw-500 c-black">Navbar Fixed</h6>
+                <input type="checkbox" id="navbar-fixed" hidden>
+                <label for="navbar-fixed" class="rad-8 p-relative transition cursor-pointer"></label>
+            </div>
+            <hr class="diveder mt-0 mb-8 bg-imagee border-none bgc-transparent">
+            <div class="light-dark between-flex mt-20 mb-20">
+                <h6 class="fs-16 fw-500 c-black">Light / Dark</h6>
+                <input type="checkbox" id="light-dark" hidden>
+                <label for="light-dark" class="rad-8 p-relative transition cursor-pointer"></label>
+            </div>
+            <hr class="diveder mt-0 mb-8 bg-imagee border-none bgc-transparent">
+            <div class="free-download">
+                <a href="#" class="d-block c-white p-10 txt-c rad-6 mt-30 transition">Free Download</a>
+            </div>
+            <div class="view-documentation">
+                <a href="#" class="d-block c-black p-10 txt-c rad-6 mt-15 transition">View Documentation</a>
+            </div>
+            <div class="star-number d-flex align-center mt-20 m-auto w-fit">
+                <a href="#" class="star d-flex align-center transition">
+                    <i class="fa-regular fa-star fs-14 mr-5"></i>
+                    <span class="fs-13">Star</span>
+                </a>
+                <a href="#" class="number c-black-d fs-13 transition">11,515</a>
+            </div>
+            <div class="thank-you mt-30">
+                <h6 class="fs-17 fw-600 c-black txt-c">Thank You For Sharing</h6>
+                <div class="tweet-share d-flex align-center fs-14 mt-10 m-auto w-fit">
+                    <a href="#" class="tweet c-white btn-shape mr-10 transition">Tweet</a>
+                    <a href="#" class="share c-white btn-shape transition">Share</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="setting-all cursor-pointer p-absolute bg-white rad-half centre-flex ">
+        <input type="checkbox" id="page-setting-icon" hidden>
+        <label for="page-setting-icon">
+        <i class="fa-solid fa-gear fs-14 c-black-d centre-flex cursor-pointer"></i>
+        </label>
+    </div>
+   </div> 
+</body>
+</html>

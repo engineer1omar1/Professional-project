@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/style.css">
+<!-- ======== Google Font ========= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="page d-flex">
+    <div class="sidebar bg-white rad-12 m-8 mr-0 w-full t-0 b-0 p-fixed transition">
+        <a class="sidebar-header" href="" target="_blank">
+            <span class="fs-25 fw-bold d-block w-fit">omar</span>
+        </a>
+        <hr class="diveder mt-0 mb-8 bg-imagee border-none bgc-transparent">
+        <ul class="sidebar-menu">
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="dashboard.html"><i class="fa-regular fa-house c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Dashboard</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="tables.html"><i class="fa-solid fa-table c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Tables</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="billing.html"><i class="fa-solid fa-table-columns c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Billing</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="virtual-reality.html"><i class="fa-solid fa-cubes c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Virtual Reality</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="rtl.html"><i class="fa-solid fa-paragraph c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">RTL</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="notifications.html"><i class="fa-regular fa-bell c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Notifications</span></a>
+            </li>
+            <span class="account-page c-viv fs-15 opacity-5"">Account Page</span>
+            <li class="menu-item d-flex align-center">
+                <a class="active w-full rad-8" href="profile.html"><i class="fa-regular fa-user c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Profile</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="sign-in.html"><i class="fa-solid fa-arrow-right-to-bracket c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Sign In</span></a>
+            </li>
+            <li class="menu-item d-flex align-center">
+                <a class="w-full rad-8" href="sign-up.html"><i class="fa-solid fa-arrow-right-from-bracket c-viv fs-15 opacity-5"></i><span class="c-black-d fs-13 ml-5">Sign Up</span></a>
+            </li>
+            
+        </ul>
+        <div class="sidebar-footer">
+                <a href="#"><span class="first d-block fs-14 w-fit rad-6">Documentation</span></a>
+                <a href="#"><span class="second fs-14 w-fit rad-6 m-auto d-block c-white fw-bold">Upgrade to Pro</span></a>
+        </div>
+    </div>
+
+
+    <div class="content f-1 p-10 pr-20">
+       <div class="header transition between-flex ml-10 pl-10">
+        <div class="header-left d-flex align-center fs-14">
+            <span class="span-frist mr-10 c-secondary">Pages </span><span class="c-black-c">/</span><span class="span-second c-black-c ml-10">Profile</span>
+        </div>
+        <div class="header-right between-flex">
+            <div class="hover-option">
+            <input type="search" class="input-search bg-blue rad-6 p-10 fs-14">
+            </div>
+            <div>
+            <a href="#" class="online-builder ml-15 rad-8 fs-12 transition">Online Builder</a>
+            </div>
+            <div class="star-number between-flex ml-15">
+                <a href="#" class="star d-flex align-center transition">
+                    <i class="fa-regular fa-star fs-14 mr-5"></i>
+                    <span class="fs-12">Star</span>
+                </a>
+                <a href="#" class="number fs-12 transition">11,515</a>
+            </div>
+            <input type="checkbox" id="overflow" hidden>
+            <label for="overflow" class="sidebar-icon-checked d-flex f-wrap mr-15 ml-15">
+                <span class="one transition"></span>
+                <span class="tow"></span>
+                <span class="three transition"></span>
+            </label>
+            <input type="checkbox" id="page-setting-icon" hidden>
+            <label for="page-setting-icon" class="page-setting-icon transition">
+                <i class="fa-solid fa-gear fs-14 c-threerd cursor-pointer "></i>
+            </label>
+            <input type="checkbox" id="notification" hidden>
+            <label for="notification" class="notification-dashboard p-relative">
+                <i class="fa-regular fa-bell fs-16 ml-15 mr-15 c-threerd cursor-pointer"></i>
+                <div class="notifitcation-hover p-absolute bg-white rad-8 shadow bc-cd p-10">
+                    <div class="d-flex align-center p-10 mb-5">
+                        <img src="Image/friend-01.jpg" class="img-notification mr-15 rad-half" alt="">
+                        <div>
+                            <span class="fs-14 c-black"><span class="fw-600">New Message</span> from Hossam</span>
+                            <span class="fs-12 c-threerd d-block mt-5"> 13 minutes ago</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-center p-10 mb-5">
+                        <img src="Image/friend-02.jpg" class="img-notification mr-15 rad-half" alt="">
+                        <div>
+                            <span class="fs-14 c-black"><span class="fw-600">New Message</span> from Mohammed</span>
+                            <span class="fs-12 c-threerd d-block mt-5"> 1 day</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-center p-10 mb-5">
+                        <img src="Image/friend-04.jpg" class="img-notification mr-15 rad-half" alt="">
+                        <div>
+                            <span class="fs-14 c-black"><span class="fw-600">New Message</span> from Ahmed</span>
+                            <span class="fs-12 c-threerd d-block mt-5"> 2 day</span>
+                        </div>
+                    </div>
+                </div>
+            </label>
+            <a href="sign-in.html" class="delet">
+                <i class="fa-regular fa-circle-user c-threerd fs-16 mr-15"></i>
+            </a>
+        </div>
+       </div> 
+       
+
+       <div class="profile-content p-rela mt-20">
+        <div class="img-profile"></div>
+        <div class="hlm bg-white pog rad-12 shadow p-15 mr-10 ml-10 p-relative">
+            <div class="header-profile between-flex">
+                <div class="d-flex align-center txt-f w-full">
+                    <img src="Image/friend-01.jpg" class="mr-20 rad-8" alt="">
+                    <div>
+                        <span class="fs-22 fw-600 c-black">Omar Said</span>
+                        <span class="fs-14 c-secondary mt-10 d-block">CEO / Co-Founder</span>
+                    </div>
+                </div>
+                <div class="sett bg-eee rad-8 p-5 d-flex mt-20 align-center g-10" for="app" name="page">
+                    <div class="appp">
+                        <input type="radio" id="app" name="page" hidden>
+                        <label for="app" class="app d-flex align-center transition cursor-pointer z-3">
+                            <i class="fa-regular fa-house fs-14 mr-10"></i>
+                            <span class="fs-16">App</span>
+                        </label>
+                    </div>
+                    <div class="messagess">
+                        <input type="radio" id="messages" name="page" hidden checked>
+                        <label for="messages" class="messages d-flex align-center transition cursor-pointer z-3">
+                            <i class="fa-regular fa-envelope fs-14 mr-10"></i>
+                            <span class="fs-16">Messages</span>
+                        </label>
+                    </div>
+                    <div class="settingss">
+                        <input type="radio" id="settings" name="page" hidden>
+                        <label for="settings" class="settings d-flex align-center transition cursor-pointer z-3">
+                            <i class="fa-solid fa-gear fs-14 mr-10"></i>
+                            <span class="fs-16">Settings</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="platform-settings-profile-information-conversaions mt-20 p-relative g-40 d-grid p-15">
+                <div class="platform-settings mr-20">
+                    <h5 class="fs-16 fw-600 c-black d-block mb-15">Platform Settings</h5>
+                    <span class="fs-12 fw-bold c-threerd">ACCOUNT</span>
+                    <div class="input-platform-settings w-full mt-30">
+                        <input type="checkbox" id="follow-notification" class="toggle-checkbox " hidden checked>
+                        <label for="follow-notification" class="d-flex align-center w-full">
+                            <div class="toggle-switch p-relative cursor-pointer"></div>
+                            <span class="toggle-text fs-14 ml-20 c-threerd cursor-pointer">Email me when someone follows me</span>
+                        </label>
+                    </div>
+                    <div class="input-platform-settings w-full mt-30">
+                        <input type="checkbox" id="follow" class="toggle-checkbox " hidden>
+                        <label for="follow" class="d-flex align-center w-full">
+                            <div class="toggle-switch p-relative cursor-pointer"></div>
+                            <span class="toggle-text fs-14 ml-20 c-threerd cursor-pointer">Email me when someone answers on my post</span>
+                        </label>
+                    </div>
+                    <div class="input-platform-settings w-full mt-30">
+                        <input type="checkbox" id="notificationn" class="toggle-checkbox " hidden checked>
+                        <label for="notificationn" class="d-flex align-center w-full">
+                            <div class="toggle-switch p-relative cursor-pointer"></div>
+                            <span class="toggle-text fs-14 ml-20 c-threerd cursor-pointer">Email me when someone mentions me</span>
+                        </label>
+                    </div>
+                    <span class="fs-12 fw-bold c-threerd d-block mt-30">APPLICATION</span>
+                    <div class="input-platform-settings w-full mt-30">
+                        <input type="checkbox" id="projectss" class="toggle-checkbox " hidden>
+                        <label for="projectss" class="d-flex align-center w-full">
+                            <div class="toggle-switch p-relative cursor-pointer"></div>
+                            <span class="toggle-text fs-14 ml-20 c-threerd cursor-pointer">New launches and projects</span>
+                        </label>
+                    </div>
+                    <div class="input-platform-settings w-full mt-30">
+                        <input type="checkbox" id="updates" class="toggle-checkbox " hidden checked>
+                        <label for="updates" class="d-flex align-center w-full">
+                            <div class="toggle-switch p-relative cursor-pointer"></div>
+                            <span class="toggle-text fs-14 ml-20 c-threerd cursor-pointer">Monthly product updates</span>
+                        </label>
+                    </div>
+                    <div class="input-platform-settings w-full mt-30">
+                        <input type="checkbox" id="newsletter" class="toggle-checkbox " hidden>
+                        <label for="newsletter" class="d-flex align-center w-full">
+                            <div class="toggle-switch p-relative cursor-pointer"></div>
+                            <span class="toggle-text fs-14 ml-20 c-threerd cursor-pointer">Subscribe to newsletter</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="profile-information mr-20">
+                    <h5 class="fs-16 fw-600 c-black d-block mb-25">Platform Settings</h5>
+                    <P class="profile-information-text fs-14 c-threerd">
+                        Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality).
+                    </P>
+                    <hr class="diveder mt-30 mb-30 bg-imagee border-none bgc-transparent">
+                    <div class="d-flex mb-10">
+                        <span class="fs-14 fw-bold c-black d-block mb-10 mr-10">Full Name:</span>
+                        <span class="fs-14 c-threerd">Omar Said Ali</span>
+                    </div>
+                    <div class="d-flex mb-10">
+                        <span class="fs-14 fw-bold c-black d-block mb-10 mr-10">Mobile:</span>
+                        <span class="fs-14 c-threerd">(44) 123 1234 123</span>
+                    </div>
+                    <div class="d-flex mb-10">
+                        <span class="fs-14 fw-bold c-black d-block mb-10 mr-10">Email:</span>
+                        <span class="fs-14 c-threerd">alecthompson@mail.com</span>
+                    </div>
+                    <div class="d-flex mb-10">
+                        <span class="fs-14 fw-bold c-black d-block mb-10 mr-10">Location:</span>
+                        <span class="fs-14 c-threerd">Egyption</span>
+                    </div>
+                    <div class="d-flex mb-10">
+                        <span class="fs-14 fw-bold c-black d-block mb-10 mr-10">Social:</span>
+                        <span class="fs-14 c-threerd">*****</span>
+                    </div>
+                </div>
+                <div class="conversaions mr-20">
+                    <h5 class="fs-16 fw-600 c-black d-block mb-25">Conversations</h5>
+                    <div class="between-flex mb-25 w-full">
+                        <div class="d-flex align-center">
+                            <img src="Image/friend-02.jpg" class="conversaions-img w-full rad-8 shadow mr-15" alt="">
+                            <div class="w-full">
+                                <span class="fs-15 fw-600 d-block c-black">Omar S</span>
+                                <span class="conversaions-h1i fs-12 c-threerd" data-full="Hi! I need more information..">Hi! I need..</span>
+                            </div>
+                        </div>
+                        <span class="fs-14 c-threerd fs-bold">Reply</span>
+                    </div>
+                    <div class="between-flex mb-25 w-full">
+                        <div class="d-flex align-center">
+                            <img src="Image/friend-01.jpg" class="conversaions-img w-full rad-8 shadow mr-15" alt="">
+                            <div class="w-full">
+                                <span class="fs-15 fw-600 d-block c-black">Mohameed S</span>
+                                <span class="conversaions-h2i fs-12 c-threerd" data-full="Awesome work, can you...">Awesome work</span>
+                            </div>
+                        </div>
+                        <span class="fs-14 c-threerd fs-bold">Reply</span>
+                    </div>
+                    <div class="between-flex mb-25 w-full">
+                        <div class="d-flex align-center">
+                            <img src="Image/friend-04.jpg" class="conversaions-img w-full rad-8 shadow mr-15" alt="">
+                            <div class="w-full">
+                                <span class="fs-15 fw-600 d-block c-black">Mohameed S</span>
+                                <span class="conversaions-h3i fs-12 c-threerd" data-full="About files I can...">About files</span>
+                            </div>
+                        </div>
+                        <span class="fs-14 c-threerd fs-bold">Reply</span>
+                    </div>
+                    <div class="between-flex mb-25 w-full">
+                        <div class="d-flex align-center">
+                            <img src="Image/friend-05.jpg" class="conversaions-img w-full rad-8 shadow mr-15" alt="">
+                            <div class="w-full">
+                                <span class="fs-15 fw-600 d-block c-black">Mohameed S</span>
+                                <span class="conversaions-h4i fs-12 c-threerd" data-full="Have a great afternoon..">Have a great</span>
+                            </div>
+                        </div>
+                        <span class="fs-14 c-threerd fs-bold">Reply</span>
+                    </div>
+                    <div class="between-flex mb-1 w-full">
+                        <div class="d-flex align-center">
+                            <img src="Image/friend-02.jpg" class="conversaions-img w-full rad-8 shadow mr-15" alt="">
+                            <div class="w-full">
+                                <span class="fs-15 fw-600 d-block c-black">Mohameed S</span>
+                                <span class="conversaions-h5i fs-12 c-threerd" data-full="Hi! I need more information..">Hi! I need</span>
+                            </div>
+                        </div>
+                        <span class="fs-14 c-threerd fs-bold">Reply</span>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-projects p-15">
+                <h5 class="fs-16 fw-600 c-black">Projects</h5>
+                <span class="fs-14 c-threerd d-block mt-5">Architects design houses</span>
+                <div class="four-profile-projects">
+                    <div class="modern mt-30">
+                        <div class="image">
+                            <img src="Image/home-decor-1.jpg" class="home-docor-one w-full rad-8 shadow overflow-hidden" alt="">
+                        </div>
+                        <span class="fs-14 c-threerd d-block mt-15 mb-5">Project #2</span>
+                    <h5 class="fs-18 fw-bold c-black mb-15">Modern</h5>
+                    <p class="fs-14 c-threerd mb-40">As Uber works through a huge amount of internal management turmoil.</p>
+                    <div class="modern-submit between-flex">
+                        <div>
+                            <a href="#" class="cursor-pointer c-red fs-14 btn-shape">View Project</a>
+                        </div>
+                        <div class="d-flex align-center">
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Omar Said">
+                            <img src="Image/friend-02.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Hossam Hassan">
+                            <img src="Image/friend-01.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Mohammed Shaban">
+                            <img src="Image/friend-04.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Ahmed Abd Alem">
+                            <img src="Image/friend-05.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="scandinavian mt-30">
+                        <div class="image">
+                            <img src="Image/home-decor-2.jpg" class="home-docor-one w-full rad-8 shadow overflow-hidden" alt="">
+                        </div>
+                        <span class="fs-14 c-threerd d-block mt-15 mb-5">Project #1</span>
+                    <h5 class="fs-18 fw-bold c-black mb-15">Scandinavian</h5>
+                    <p class="fs-14 c-threerd mb-40">Music is something that every person has his or her own specific...</p>
+                    <div class="scandinavian-submit between-flex">
+                        <div>
+                            <a href="#" class="cursor-pointer c-red fs-14 btn-shape">View Project</a>
+                        </div>
+                        <div class="d-flex align-center">
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Omar Said">
+                            <img src="Image/friend-02.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Hossam Hassan">
+                            <img src="Image/friend-01.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Mohammed Shaban">
+                            <img src="Image/friend-04.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Ahmed Abd Alem">
+                            <img src="Image/friend-05.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    <div class="minimalist mt-30">
+                        <div class="image">
+                            <img src="Image/home-decor-3.jpg" class="home-docor-one w-full rad-8 shadow overflow-hidden" alt="">
+                        </div>
+                        <span class="fs-14 c-threerd d-block mt-15 mb-5">Project #3</span>
+                    <h5 class="fs-18 fw-bold c-black mb-15">Minimalist</h5>
+                    <p class="fs-14 c-threerd mb-40">Different people have different taste, and various types of music. Music is..</p>
+                    <div class="minimalist-submit between-flex">
+                        <div>
+                            <a href="#" class="cursor-pointer c-red fs-14 btn-shape">View Project</a>
+                        </div>
+                        <div class="d-flex align-center">
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Omar Said">
+                            <img src="Image/friend-02.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Hossam Hassan">
+                            <img src="Image/friend-01.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Mohammed Shaban">
+                            <img src="Image/friend-04.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Ahmed Abd Alem">
+                            <img src="Image/friend-05.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    <div class="gothic mt-30">
+                        <div class="image">
+                            <img src="Image/photo-1606744824163-985d376605aa.avif" class="home-docor-one w-full rad-8 shadow overflow-hidden" alt="">
+                        </div>
+                        <span class="fs-14 c-threerd d-block mt-15 mb-5">Project #1</span>
+                    <h5 class="fs-18 fw-bold c-black mb-15">Gothic</h5>
+                    <p class="fs-14 c-threerd mb-40">Why would anyone pick blue over pink? Pink is obviously a better color.</p>
+                    <div class="gothic-submit between-flex">
+                        <div>
+                            <a href="#" class="cursor-pointer c-red fs-14 btn-shape">View Project</a>
+                        </div>
+                        <div class="d-flex align-center">
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Omar Said">
+                            <img src="Image/friend-02.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Hossam Hassan">
+                            <img src="Image/friend-01.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Mohammed Shaban">
+                            <img src="Image/friend-04.jpg" class="cursor-pointer" alt="">
+                            </div>
+                            <div class="img-data-text cursor-pointer p-relative" data-text="Ahmed Abd Alem">
+                            <img src="Image/friend-05.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+
+
+       <div class="footer between-flex pt-30 pb-30">
+        <div class="copy c-threerd fs-14">&copy; 2026, made with by <span class="c-black fs-15 fw-bold">Omar</span> for a better web.</div>
+        <div class="links">
+            <ul class="d-flex align-center g-40">
+                <li><a href="#" class="c-threerd fs-14 fw-500">Omar</a></li>
+                <li><a href="#" class="c-threerd fs-14 fw-500">About As</a></li>
+                <li><a href="#" class="c-threerd fs-14 fw-500">Blog</a></li>
+                <li><a href="#" class="c-threerd fs-14 fw-500">Contact</a></li>
+            </ul>
+        </div>
+       </div>
+    </div>
+    <div class="page-setting pl-10 pr-10 transition" id="page-setting-icon">
+        <div class="title between-flex p-15">
+            <div>
+                <h5 class="fs-20 pt-15 fw-600 c-black">Material UI Configurator</h5>
+                <p class="c-secondary fs-16 pb-16 mt-5">See our dashboard options.</p>
+            </div>
+            <input type="checkbox" id="page-setting-icon" hidden>
+            <label for="page-setting-icon">
+            <i class="fa-solid fa-xmark c-black mt-15 fs-13 cursor-pointer"></i>
+            </label>
+        </div>
+        <div class="setting-body p-15 mt-5">
+            <div class="sidebar-colors">
+            <h6 class="fs-16 fw-500 c-black">Sidebar Colors</h6>
+            <div class="d-flex align-center">
+                <input type="radio" name="sidebar-color" id="sidebar-1-color" hidden>
+                <label for="sidebar-1-color" class="one rad-half mt-10 transition cursor-pointer"></label>
+                <input type="radio" name="sidebar-color" id="sidebar-2-color" hidden>
+                <label for="sidebar-2-color" class="tow rad-half mt-10 ml-10 transition cursor-pointer"></label>
+                <input type="radio" name="sidebar-color" id="sidebar-3-color" hidden>
+                <label for="sidebar-3-color" class="three rad-half mt-10 ml-10 transition cursor-pointer"></label>
+                <input type="radio" name="sidebar-color" id="sidebar-4-color" hidden>
+                <label for="sidebar-4-color" class="four rad-half mt-10 ml-10 transition cursor-pointer"></label>
+                <input type="radio" name="sidebar-color" id="sidebar-5-color" hidden>
+                <label for="sidebar-5-color" class="five rad-half mt-10 ml-10 transition cursor-pointer"></label>
+                <input type="radio" name="sidebar-color" id="sidebar-6-color" hidden>
+                <label for="sidebar-6-color" class="six rad-half mt-10 ml-10 transition cursor-pointer"></label>
+            </div>
+            </div>
+            <div class="sidenav-type">
+                <h6 class="fs-16 fw-500 mt-30 c-black">Sidenav Type</h6>
+                <p class="c-secondary fs-15 mb-15 mt-5">Choose between different sidenav types.</p>
+            </div>
+            <div class="sidebar-color-change d-flex align-center">
+                <input type="radio" name="sidebar-color-change" id="dark" hidden>
+                <label for="dark" class="dark c-black mr-10 fs-15 bc-ccc btn-shape shadow cursor-pointer">Dark</label>
+                <input type="radio" name="sidebar-color-change" id="transparent" hidden>
+                <label for="transparent" class="transparent c-black mr-10 fs-15 bc-ccc btn-shape shadow cursor-pointer">Transparent</label>
+                <input type="radio" name="sidebar-color-change" id="white" hidden checked>
+                <label for="white" class="white c-black fs-15 bc-ccc btn-shape shadow cursor-pointer">White</label>
+            </div>
+            <div class="navbar-fixed between-flex mt-30 mb-20">
+                <h6 class="fs-16 fw-500 c-black">Navbar Fixed</h6>
+                <input type="checkbox" id="navbar-fixed" hidden>
+                <label for="navbar-fixed" class="rad-8 p-relative transition cursor-pointer"></label>
+            </div>
+            <hr class="diveder mt-0 mb-8 bg-imagee border-none bgc-transparent">
+            <div class="light-dark between-flex mt-20 mb-20">
+                <h6 class="fs-16 fw-500 c-black">Light / Dark</h6>
+                <input type="checkbox" id="light-dark" hidden>
+                <label for="light-dark" class="rad-8 p-relative transition cursor-pointer"></label>
+            </div>
+            <hr class="diveder mt-0 mb-8 bg-imagee border-none bgc-transparent">
+            <div class="free-download">
+                <a href="#" class="d-block c-white p-10 txt-c rad-6 mt-30 transition">Free Download</a>
+            </div>
+            <div class="view-documentation">
+                <a href="#" class="d-block c-black p-10 txt-c rad-6 mt-15 transition">View Documentation</a>
+            </div>
+            <div class="star-number d-flex align-center mt-20 m-auto w-fit">
+                <a href="#" class="star d-flex align-center transition">
+                    <i class="fa-regular fa-star fs-14 mr-5"></i>
+                    <span class="fs-13">Star</span>
+                </a>
+                <a href="#" class="number c-black-d fs-13 transition">11,515</a>
+            </div>
+            <div class="thank-you mt-30">
+                <h6 class="fs-17 fw-600 c-black txt-c">Thank You For Sharing</h6>
+                <div class="tweet-share d-flex align-center fs-14 mt-10 m-auto w-fit">
+                    <a href="#" class="tweet c-white btn-shape mr-10 transition">Tweet</a>
+                    <a href="#" class="share c-white btn-shape transition">Share</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="setting-all cursor-pointer p-absolute bg-white rad-half centre-flex ">
+        <input type="checkbox" id="page-setting-icon" hidden>
+        <label for="page-setting-icon">
+        <i class="fa-solid fa-gear fs-14 c-black-d centre-flex cursor-pointer"></i>
+        </label>
+    </div>
+   </div> 
+</body>
+</html>
